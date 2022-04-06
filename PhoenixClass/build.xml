@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="PhoenixClass">
+    <property environment="env"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.8"/>
+    <property name="source" value="1.8"/>
+    <path id="PhoenixClass.classpath">
+        <pathelement location="bin"/>
+    </path>
+    <path id="run.BankAccounRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Book.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.BookRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Counter.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.CounterRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.DeviceRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Employee.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.EmployeeRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.exceptionHandling.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.findingDuplicates.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.InitByReference.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Item.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.JavaCollections.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.KeyWords.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.LabSession_09_30_21.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.LabSession_10_14_21.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.LabSession_10_19_21.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.LabSession_10_7_21.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.LocalVariable.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Mutation.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.NewTestClass2.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Palindrome.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.ReviewSession1.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.ReviewSession12072021.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.ReviewSession12082021.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (1).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (2).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (3).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (4).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (5).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (6).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (7).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner (8).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Runner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.RunnerTest.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Scanner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.ScannerExampleNumberGame.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_09_29_21_Day2.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_04_21_Day4.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_05_21_Day5.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_06_21_Day6.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_12_21_Day10.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_13_21_Day9.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_18_21_Day11.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_20_21_Day13_ForEachLoop.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_21_21_Day14_Multi_Dimenesion_Array.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Session_10_25_21_Day15.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.StaticKeyWordExample.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.StaticTest.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.StudentRunner.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.Test.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.TestClass (1).classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <path id="run.TestClass.classpath">
+        <path refid="PhoenixClass.classpath"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src">
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" includeantruntime="false" source="${source}" target="${target}">
+            <src path="src"/>
+            <classpath refid="PhoenixClass.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="BankAccounRunner">
+        <java classname="day19_20_OOPStudentExample2.BankAccounRunner" failonerror="true" fork="yes">
+            <classpath refid="run.BankAccounRunner.classpath"/>
+        </java>
+    </target>
+    <target name="Book">
+        <java classname="day17OOPThisandToString.Book" failonerror="true" fork="yes">
+            <classpath refid="run.Book.classpath"/>
+        </java>
+    </target>
+    <target name="BookRunner">
+        <java classname="day17OOPThisandToString.BookRunner" failonerror="true" fork="yes">
+            <classpath refid="run.BookRunner.classpath"/>
+        </java>
+    </target>
+    <target name="Counter">
+        <java classname="LabSession11182021.Counter" failonerror="true" fork="yes">
+            <classpath refid="run.Counter.classpath"/>
+        </java>
+    </target>
+    <target name="CounterRunner">
+        <java classname="LabSession11182021.CounterRunner" failonerror="true" fork="yes">
+            <classpath refid="run.CounterRunner.classpath"/>
+        </java>
+    </target>
+    <target name="DeviceRunner">
+        <java classname="day17OOPThisandToString.DeviceRunner" failonerror="true" fork="yes">
+            <classpath refid="run.DeviceRunner.classpath"/>
+        </java>
+    </target>
+    <target name="Employee">
+        <java classname="day17OOPThisandToString.Employee" failonerror="true" fork="yes">
+            <classpath refid="run.Employee.classpath"/>
+        </java>
+    </target>
+    <target name="EmployeeRunner">
+        <java classname="day17OOPThisandToString.EmployeeRunner" failonerror="true" fork="yes">
+            <classpath refid="run.EmployeeRunner.classpath"/>
+        </java>
+    </target>
+    <target name="exceptionHandling">
+        <java classname="day32_ExceptionHandling.exceptionHandling" failonerror="true" fork="yes">
+            <classpath refid="run.exceptionHandling.classpath"/>
+        </java>
+    </target>
+    <target name="findingDuplicates">
+        <java classname="day34_35_JAVACollections.findingDuplicates" failonerror="true" fork="yes">
+            <classpath refid="run.findingDuplicates.classpath"/>
+        </java>
+    </target>
+    <target name="InitByReference">
+        <java classname="PhoenixReview.InitByReference" failonerror="true" fork="yes">
+            <classpath refid="run.InitByReference.classpath"/>
+        </java>
+    </target>
+    <target name="Item">
+        <java classname="day17OOPThisandToString.Item" failonerror="true" fork="yes">
+            <classpath refid="run.Item.classpath"/>
+        </java>
+    </target>
+    <target name="JavaCollections">
+        <java classname="day34_35_JAVACollections.JavaCollections" failonerror="true" fork="yes">
+            <classpath refid="run.JavaCollections.classpath"/>
+        </java>
+    </target>
+    <target name="KeyWords">
+        <java classname="KeyWords" failonerror="true" fork="yes">
+            <classpath refid="run.KeyWords.classpath"/>
+        </java>
+    </target>
+    <target name="LabSession_09_30_21">
+        <java classname="javaBasics.LabSession_09_30_21" failonerror="true" fork="yes">
+            <classpath refid="run.LabSession_09_30_21.classpath"/>
+        </java>
+    </target>
+    <target name="LabSession_10_14_21">
+        <java classname="javaBasics.LabSession_10_14_21" failonerror="true" fork="yes">
+            <classpath refid="run.LabSession_10_14_21.classpath"/>
+        </java>
+    </target>
+    <target name="LabSession_10_19_21">
+        <java classname="javaBasics.LabSession_10_19_21" failonerror="true" fork="yes">
+            <classpath refid="run.LabSession_10_19_21.classpath"/>
+        </java>
+    </target>
+    <target name="LabSession_10_7_21">
+        <java classname="javaBasics.LabSession_10_7_21" failonerror="true" fork="yes">
+            <classpath refid="run.LabSession_10_7_21.classpath"/>
+        </java>
+    </target>
+    <target name="LocalVariable">
+        <java classname="PhoenixReview.LocalVariable" failonerror="true" fork="yes">
+            <classpath refid="run.LocalVariable.classpath"/>
+        </java>
+    </target>
+    <target name="Mutation">
+        <java classname="day31_Mutation.Mutation" failonerror="true" fork="yes">
+            <classpath refid="run.Mutation.classpath"/>
+        </java>
+    </target>
+    <target name="NewTestClass2">
+        <java classname="javaBasics.NewTestClass2" failonerror="true" fork="yes">
+            <classpath refid="run.NewTestClass2.classpath"/>
+        </java>
+    </target>
+    <target name="Palindrome">
+        <java classname="Palindrome" failonerror="true" fork="yes">
+            <classpath refid="run.Palindrome.classpath"/>
+        </java>
+    </target>
+    <target name="ReviewSession1">
+        <java classname="PhoenixReview.ReviewSession1" failonerror="true" fork="yes">
+            <classpath refid="run.ReviewSession1.classpath"/>
+        </java>
+    </target>
+    <target name="ReviewSession12072021">
+        <java classname="PhoenixReview.ReviewSession12072021" failonerror="true" fork="yes">
+            <classpath refid="run.ReviewSession12072021.classpath"/>
+        </java>
+    </target>
+    <target name="ReviewSession12082021">
+        <java classname="PhoenixReview.ReviewSession12082021" failonerror="true" fork="yes">
+            <classpath refid="run.ReviewSession12082021.classpath"/>
+        </java>
+    </target>
+    <target name="Runner (1)">
+        <java classname="day17OOPThisandToString.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (1).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (2)">
+        <java classname="day21_OOPInheritanceExamples.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (2).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (3)">
+        <java classname="InheritanceRev.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (3).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (4)">
+        <java classname="day23_OOPPolymorphism.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (4).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (5)">
+        <java classname="day24_OOPExampleCart.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (5).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (6)">
+        <java classname="day25_OOPExampleCartWithMethods.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (6).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (7)">
+        <java classname="day28_30_AbstractionExamples.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (7).classpath"/>
+        </java>
+    </target>
+    <target name="Runner (8)">
+        <java classname="PhoenixReview.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner (8).classpath"/>
+        </java>
+    </target>
+    <target name="Runner">
+        <java classname="day16ObjectClass.Runner" failonerror="true" fork="yes">
+            <classpath refid="run.Runner.classpath"/>
+        </java>
+    </target>
+    <target name="RunnerTest">
+        <java classname="javaBasics.RunnerTest" failonerror="true" fork="yes">
+            <classpath refid="run.RunnerTest.classpath"/>
+        </java>
+    </target>
+    <target name="Scanner">
+        <java classname="day21_OOPInheritanceExamples.Scanner" failonerror="true" fork="yes">
+            <classpath refid="run.Scanner.classpath"/>
+        </java>
+    </target>
+    <target name="ScannerExampleNumberGame">
+        <java classname="day21_OOPInheritanceExamples.ScannerExampleNumberGame" failonerror="true" fork="yes">
+            <classpath refid="run.ScannerExampleNumberGame.classpath"/>
+        </java>
+    </target>
+    <target name="Session_09_29_21_Day2">
+        <java classname="javaBasics.Session_09_29_21_Day2" failonerror="true" fork="yes">
+            <classpath refid="run.Session_09_29_21_Day2.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_04_21_Day4">
+        <java classname="javaBasics.Session_10_04_21_Day4" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_04_21_Day4.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_05_21_Day5">
+        <java classname="javaBasics.Session_10_05_21_Day5" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_05_21_Day5.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_06_21_Day6">
+        <java classname="javaBasics.Session_10_06_21_Day6" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_06_21_Day6.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_12_21_Day10">
+        <java classname="javaBasics.Session_10_12_21_Day10" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_12_21_Day10.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_13_21_Day9">
+        <java classname="javaBasics.Session_10_13_21_Day9" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_13_21_Day9.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_18_21_Day11">
+        <java classname="javaBasics.Session_10_18_21_Day11" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_18_21_Day11.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_20_21_Day13_ForEachLoop">
+        <java classname="javaBasics.Session_10_20_21_Day13_ForEachLoop" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_20_21_Day13_ForEachLoop.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_21_21_Day14_Multi_Dimenesion_Array">
+        <java classname="javaBasics.Session_10_21_21_Day14_Multi_Dimenesion_Array" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_21_21_Day14_Multi_Dimenesion_Array.classpath"/>
+        </java>
+    </target>
+    <target name="Session_10_25_21_Day15">
+        <java classname="javaBasics.Session_10_25_21_Day15" failonerror="true" fork="yes">
+            <classpath refid="run.Session_10_25_21_Day15.classpath"/>
+        </java>
+    </target>
+    <target name="StaticKeyWordExample">
+        <java classname="day27_SpecifiersExamples.StaticKeyWordExample" failonerror="true" fork="yes">
+            <classpath refid="run.StaticKeyWordExample.classpath"/>
+        </java>
+    </target>
+    <target name="StaticTest">
+        <java classname="PhoenixReview.StaticTest" failonerror="true" fork="yes">
+            <classpath refid="run.StaticTest.classpath"/>
+        </java>
+    </target>
+    <target name="StudentRunner">
+        <java classname="LabSession11182021.StudentRunner" failonerror="true" fork="yes">
+            <classpath refid="run.StudentRunner.classpath"/>
+        </java>
+    </target>
+    <target name="Test">
+        <java classname="day19_20_OOPStudentExample2.Test" failonerror="true" fork="yes">
+            <classpath refid="run.Test.classpath"/>
+        </java>
+    </target>
+    <target name="TestClass (1)">
+        <java classname="javaBasics.TestClass" failonerror="true" fork="yes">
+            <classpath refid="run.TestClass (1).classpath"/>
+        </java>
+    </target>
+    <target name="TestClass">
+        <java classname="PhoenixReview.TestClass" failonerror="true" fork="yes">
+            <classpath refid="run.TestClass.classpath"/>
+        </java>
+    </target>
+</project>
